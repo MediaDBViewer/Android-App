@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <!-- Versions Anzeige -->
+    <TextView
+        android:id="@+id/appUpdateVersionText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:text="@string/appUpdateChangeDescription"/>
+
+    <!-- Changelog -->
+    <ScrollView
+        android:id="@+id/appUpdateScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#15000000">
+
+        <TextView
+            android:id="@+id/appUpdateChagelog"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="18sp"/>
+
+    </ScrollView>
+
+</LinearLayout>

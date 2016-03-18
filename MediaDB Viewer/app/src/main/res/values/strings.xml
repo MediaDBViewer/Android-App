@@ -1,0 +1,278 @@
+<resources>
+
+    <string name="app_version">v1.4.11</string>
+    <string name="app_name">MediaDB Viewer</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Öffnen</string>
+    <string name="navigation_drawer_close">Schließen</string>
+    <string name="movieSearchFieldHint">Suchkriterium</string>
+    <string name="movieActorSearchFieldHint">Schauspieler</string>
+    <string name="movieSortText">Sortierung</string>
+    <string name="movieFilterButtonText">Anwenden</string>
+    <string name="movieResetButtonText">Reset</string>
+    <string name="openIMDBTitle">IMDB-Seite öffnen mit ...</string>
+
+    <string name="actionBarFilterIconTitle">Filtern</string>
+    <string name="actionBarShareIconTitle">Teilen</string>
+
+    <string name="hintNoNetworkConnection">Keine Verbindung zum Internet verfügbar!</string>
+    <string name="hintNoStatistic">Es sind keine Statistiken verfügbar!</string>
+    <string name="hintServerNotAvailable">Der Server ist nicht erreichbar!</string>
+    <string name="hintNoCacheEntryAvailable">Die Daten sind nicht im Cache vorhanden!</string>
+
+    <string name="appUpdateChangeDescription">Änderungen:</string>
+    <string name="appUpdateVersionText">Es steht ein Update von CURRENT auf RECENT zur Verfügung!</string>
+
+    <string name="updateDialogMessage">Cover werden heruntergeladen! Bitte warten ...</string>
+    <string name="moveCoverMessage">Cover werden verschoben! Bitte warten ...</string>
+
+    <string name="splashButtonMovies">Filme</string>
+    <string name="splashButtonSeries">Serien</string>
+    <string name="splashButtonStatistics">Statistik</string>
+    <string name="splashButtonSettings">Einstellungen</string>
+    <string name="navigationMenuTitle">Navigationsmenü</string>
+
+    <string name="updateDatabaseButtonText">Update</string>
+    <string name="updateCommentFieldHint">Kommentar</string>
+    <string name="updateCheckedRadioButtonSuccessText">fehlerfrei</string>
+    <string name="updateCheckedRadioButtonFailedText">fehlerhaft</string>
+    <string name="incrementCheckboxText">gesehen</string>
+    <string name="updateDialogAbortButton">Abbrechen</string>
+    <string name="updateDialogStartButton">Update</string>
+    <string name="updateDialogTitle">Datenbankupdate</string>
+
+    <string name="dimensionSpinnerDescription">3D</string>
+    <string name="GenreSpinnerDescription">Genre</string>
+    <string name="languageSpinnerDescription">Sprache</string>
+    <string name="acodecgerSpinnerDescription">Audiocodec Ger</string>
+    <string name="acodecengSpinnerDescription">Audiocodec Eng</string>
+    <string name="vcodecSpinnerDescription">Video Container</string>
+    <string name="resolutionSpinnerDescription">Auflösung</string>
+    <string name="channelsgerSpinnerDescription">Audiokanäle Ger</string>
+    <string name="channelsengSpinnerDescription">Audiokanäle Eng</string>
+    <string name="youtubeSpinnerDescription">Trailer</string>
+    <string name="hddSpinnerDescription">Festplatte</string>
+    <string name="checkedSpinnerDescription">Geprüft</string>
+    <string name="viewsSpinnerDescription">Gesehen</string>
+    <string name="fskSpinnerDescription">Altersfreigabe</string>
+
+    <string name="settingsApiKeyDescription">API-Key</string>
+    <string name="settingsApiKeyHint">z.B.: 01234567879</string>
+    <string name="settingsServerDomainDescription">Server</string>
+    <string name="settingsServerDomainHint">http://test.example.com/</string>
+    <string name="settingsServerCoverDomainDescription">Cover-Server</string>
+    <string name="settingsServerCoverDomainHint">optional</string>
+    <string name="settingsScrollSpeedDescription">Cover Flow Speed</string>
+    <string name="settingsScrollSpeedHint">1...20 (Default = 5)</string>
+    <string name="settingsCacheValidityDescription">Cachegültigkeit</string>
+    <string name="settingsCacheValidityHint">in Tagen (Default = 7)</string>
+    <string name="settingsCoverStorageText">Speicherort</string>
+    <string name="settingsSaveButtonText">Speichern</string>
+    <string name="settingsClearCacheButtonText">leeren</string>
+    <string name="settingsCacheSizeText">Cachegröße: </string>
+    <string name="settingsCoverFlowOrderText">Coverflowkriterium</string>
+    <string name="settingsCoverFlowHideSeenText">Filme für Coverflow</string>
+    <string name="settingsCoverFlowHideSeenCheckBoxText">verberge gesehene</string>
+    <string name="settingsCoverFlowItemCountDescription">Coveranzahl</string>
+    <string name="settingsCoverFlowItemCountHint">Default = 30</string>
+    <string name="settingsShowFinishedText">Serienliste</string>
+    <string name="settingsShowFinishedHint">zeige, ob abgeschlossen</string>
+
+
+    <string name="movieNotFoundMessage">Der Film wurde nicht in der Datenbank gefunden!</string>
+    <string name="movieNotFoundTitle">Fehler</string>
+    <string name="newCoversAvailableMessage">Es stehen neue Cover zum Download bereit!</string>
+    <string name="newCoversAvailableTitle">Updates verfügbar</string>
+
+    <string name="downloadMissingCoverButtonText">Lade fehlende Cover</string>
+    <string name="downloadAllCoverButtonText">Lade alle Cover</string>
+
+    <string name="lowerBoundText">von: </string>
+    <string name="upperBoundText">bis: </string>
+
+    <string name="yearHeaderName">Erscheinungsjahr</string>
+    <string name="yearAbsoluteText">Jahr = </string>
+    <string name="yearAbsoluteHint">z.B.: 2015</string>
+    <string name="yearLowerBoundHint">z.B.: 2010</string>
+    <string name="yearUpperBoundHint">z.B.: 2014</string>
+
+    <string name="sizeHeaderName">Größe</string>
+    <string name="sizeAbsoluteText">Größe = </string>
+    <string name="sizeAbsoluteHint">z.B.: 4.01 [GB]</string>
+    <string name="sizeLowerBoundHint">z.B.: 5.01 [GB]</string>
+    <string name="sizeUpperBoundHint">z.B.: 8.99 [GB]</string>
+
+    <string name="durationHeaderName">Laufzeit</string>
+    <string name="durationAbsoluteText">Laufzeit = </string>
+    <string name="durationAbsoluteHint">z.B.: 90 [Min]</string>
+    <string name="durationLowerBoundHint">z.B.: 80 [Min]</string>
+    <string name="durationUpperBoundHint">z.B.: 100 [Min]</string>
+
+    <string name="addedHeaderName">Hinzugefügt</string>
+    <string name="addedAbsoluteText">Hinzugefügt = </string>
+    <string name="addedAbsoluteHint">YYYY-MM-DD</string>
+    <string name="addedLowerBoundHint">YYYY-MM-DD</string>
+    <string name="addedUpperBoundHint">YYYY-MM-DD</string>
+
+    <string name="lastviewHeaderName">Gesehen</string>
+    <string name="lastviewAbsoluteText">Gesehen = </string>
+    <string name="lastviewAbsoluteHint">YYYY-MM-DD</string>
+    <string name="lastviewLowerBoundHint">YYYY-MM-DD</string>
+    <string name="lastviewUpperBoundHint">YYYY-MM-DD</string>
+
+    <string-array name="directionSpinner">
+        <item>auf</item>
+        <item>ab</item>
+    </string-array>
+
+    <string-array name="categorySpinner">
+        <item>name</item>
+        <item>year</item>
+        <item>duration</item>
+        <item>rating</item>
+        <item>added</item>
+        <item>size</item>
+        <item>views</item>
+        <item>lastView</item>
+    </string-array>
+
+    <string-array name="dimensionSpinnerArray">
+        <item>beliebig</item>
+        <item>3D</item>
+        <item>nicht 3D</item>
+    </string-array>
+
+    <string-array name="GenreSpinnerArray">
+        <item>beliebig</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Biography</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Musical</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>Short</item>
+        <item>Sport</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+
+    <string-array name="languageSpinnerArray">
+        <item>beliebig</item>
+        <item>Englisch</item>
+        <item>nur Deutsch</item>
+    </string-array>
+
+    <string-array name="acodecgerSpinnerArray">
+        <item>beliebig</item>
+        <item>"AC-3"</item>
+        <item>"DTS"</item>
+        <item>"MPEG Audio</item>
+        <item>"Vorbis"</item>
+    </string-array>
+
+    <string-array name="acodecengSpinnerArray">
+        <item>beliebig</item>
+        <item>"AC-3"</item>
+        <item>"DTS"</item>
+        <item>"MPEG Audio</item>
+        <item>"Vorbis"</item>
+    </string-array>
+
+    <string-array name="vcodecSpinnerArray">
+        <item>beliebig</item>
+        <item>AVI</item>
+        <item>DivX</item>
+        <item>Flash Video</item>
+        <item>mkv</item>
+        <item>MPEG-4</item>
+        <item>MPEG-PS</item>
+    </string-array>
+
+    <string-array name="resolutionSpinnerArray">
+        <item>beliebig</item>
+        <item>SD</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+
+    <string-array name="channelsgerSpinnerArray">
+        <item>beliebig</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="channelsengSpinnerArray">
+        <item>beliebig</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="hddSpinnerArray">
+        <item>beliebig</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="checkedSpinnerArray">
+        <item>beliebig</item>
+        <item>nicht geprüft</item>
+        <item>fehlerfrei</item>
+        <item>fehlerhaft</item>
+    </string-array>
+
+    <string-array name="viewsSpinnerArray">
+        <item>beliebig</item>
+        <item>ja</item>
+        <item>nein</item>
+    </string-array>
+
+    <string-array name="fskSpinnerArray">
+        <item>beliebig</item>
+        <item>0</item>
+        <item>6</item>
+        <item>12</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="youtubeSpinnerArray">
+        <item>beliebig</item>
+        <item>vorhanden</item>
+        <item>deutsch</item>
+        <item>englisch</item>
+        <item>keiner</item>
+    </string-array>
+
+    <string-array name="storageType">
+        <item>Handy</item>
+        <item>SD-Karte</item>
+    </string-array>
+
+    <string name="apiKeyMissingText">Es ist kein API-Key gesetzt, bitte eintragen!</string>
+    <string name="apiKeyInvalidatedText">Der API-Key ist nicht mehr gültig, bitte neuen eintragen!</string>
+    <string name="settingsMissingTitle">Fehlende Einstellung</string>
+    <string name="serverMissingText">Es ist kein Server gesetzt, bitte eintragen!</string>
+    <string name="serverAndApiKeyMissingText">Es ist kein API-Key und kein Server gesetzt, bitte eintragen!</string>
+
+
+</resources>

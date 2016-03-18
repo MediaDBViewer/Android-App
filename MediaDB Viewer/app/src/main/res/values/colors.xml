@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#4dbbdf</color>
+    <color name="textColorMain">#FFFFFF</color>
+    <color name="textColorSecond">#FFFFFF</color>
+    <color name="textColorSecondary">#aabaf7</color>
+    <color name="background">#ffffff</color>
+    <color name="buttonBackgroundColor">#303F9F</color>
+    <color name="buttonTextColor">#ffffff</color>
+    <color name="navigationDrawerBackground">#1c0035ff</color>
+    <color name="filterBarBackgroundColor">#e76573d2</color>
+    <color name="complexFilterContentBackground">#773F51B5</color>
+    <color name="filterTextColor">#ffffff</color>
+    <color name="filterHintColor">#c1c1c1</color>
+    <color name="collapsableAreaContentBackgroundColor">#220035ff</color>
+    <color name="collapsableAreaTextColor">#000000</color>
+    <color name="spinnerDefaultTextColor">#000000</color>
+    <color name="backgroundHintColor">#30000000</color>
+    <color name="tableRowBackgroundLight">#99CECEF6</color>
+    <color name="tableRowBackgroundDark">#443F51B5</color>
+
+<!--
+    <color name="tableRowBackgroundLight">#99efdab9</color>
+    <color name="tableRowBackgroundDark">#99e9c896</color>
+-->
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="tabBackgroundColor">#485D67</color>
+    <color name="tabTextColor">#FFFFFF</color>
+    <color name="appVersion">#66000000</color>
+    <color name="splashButtonColor">#CC000000</color>
+    <color name="splashBackgroundColor">#22000000</color>
+    <color name="splashBackgroundColorAlpha">#250097DA</color>
+    <color name="navigationLayoutBackground">#FF0097DA</color>
+    <color name="dividerColor">#22000000</color>
+    <color name="linkColor">#0A0A2A</color>
+</resources>

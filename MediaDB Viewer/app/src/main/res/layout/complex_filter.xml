@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/filterHeader"
+        android:paddingLeft="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/filterTextColor"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/filterContent"
+        android:background="@color/complexFilterContentBackground"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/filterAbsoluteText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/filterTextColor"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/filterAbsoluteField"
+                    android:textColor="@color/filterTextColor"
+                    android:textColorHint="@color/filterHintColor"
+                    android:paddingTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/filterLowerBoundText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/filterTextColor"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/filterLowerBoundField"
+                    android:textColor="@color/filterTextColor"
+                    android:textColorHint="@color/filterHintColor"
+                    android:paddingTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/filterUpperBoundText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/filterTextColor"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/filterUpperBoundField"
+                    android:textColor="@color/filterTextColor"
+                    android:textColorHint="@color/filterHintColor"
+                    android:paddingTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/downloadAllCoverButton"
+            android:text="@string/downloadAllCoverButtonText"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/downloadMissingCoverButton"
+            android:text="@string/downloadMissingCoverButtonText"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingsApiKeyDescription"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/settingsApiKeyField"
+                    android:hint="@string/settingsApiKeyHint"
+                    android:maxLength="10"
+                    android:paddingTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingsServerDomainDescription"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/settingsServerDomainField"
+                    android:hint="@string/settingsServerDomainHint"
+                    android:paddingTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:text="@string/settingsCoverStorageText"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/settingsCoverStorageSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:paddingBottom="4sp"/>
+
+            </TableRow>
+
+
+            <!-- Cover Server wird momentan nicht benötigt
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:paddingLeft="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/settingsServerCoverDomainDescription"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"/>
+
+                            <EditText
+                                android:id="@+id/settingsServerCoverDomainField"
+                                android:hint="@string/settingsServerCoverDomainHint"
+                                android:paddingTop="0dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </TableRow>
+            -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingsScrollSpeedDescription"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/settingsScrollSpeedField"
+                    android:hint="@string/settingsScrollSpeedHint"
+                    android:inputType="number"
+                    android:paddingTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:text="@string/settingsCoverFlowOrderText"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/settingsCoverFlowOrderSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:paddingBottom="4sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:text="@string/settingsCoverFlowHideSeenText"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/settingsCoverFlowHideSeenCheckBox"
+                    android:text="@string/settingsCoverFlowHideSeenCheckBoxText"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingsCoverFlowItemCountDescription"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/settingsCoverFlowItemCountField"
+                    android:paddingTop="0dp"
+                    android:inputType="number"
+                    android:hint="@string/settingsCoverFlowItemCountHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:text="@string/settingsShowFinishedText"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/settingsShowFinishedCheckBox"
+                    android:text="@string/settingsShowFinishedHint"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingsCacheValidityDescription"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/settingsCacheValidityField"
+                    android:hint="@string/settingsCacheValidityHint"
+                    android:paddingTop="0dp"
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:paddingLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingsCacheSizeText"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <LinearLayout>
+
+                    <TextView
+                        android:id="@+id/cacheSizeValue"
+                        android:paddingLeft="6dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"/>
+
+                    <Button
+                        android:id="@+id/clearCacheButton"
+                        android:text="@string/settingsClearCacheButtonText"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/settingsSaveButton"
+            android:text="@string/settingsSaveButtonText"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
